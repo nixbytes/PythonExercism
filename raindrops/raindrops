@@ -1,0 +1,24 @@
+#!/usr/bin/python
+
+def convert_to_raindrop_sound(number):
+    result = ""
+
+    if number % 3 == 0:
+        result += "Pling"
+
+    if number % 5 == 0:
+        result += "Plang"
+
+    if number % 7 == 0:
+        result += "Plong"
+
+    if not result:
+        result = str(number)
+
+    return result
+
+# Examples
+#print(convert_to_raindrop_sound(28))   # Output: "Plong"
+#print(convert_to_raindrop_sound(30))   # Output: "PlingPlang"
+#print(convert_to_raindrop_sound(34))   # Output: "34"
+

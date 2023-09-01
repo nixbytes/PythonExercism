@@ -3,3 +3,11 @@
 # PythonExercism
 
 
+
+guidos-gorgeous-lasagna
+hello-world
+leap
+raindrops
+reverse-string
+rna-transcription
+two-fer
